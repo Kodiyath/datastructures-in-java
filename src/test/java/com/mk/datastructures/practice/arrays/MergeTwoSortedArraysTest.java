@@ -1,8 +1,9 @@
-package com.mk.datastructures.practice;
+package com.mk.datastructures.practice.arrays;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 class MergeTwoSortedArraysTest {
 
@@ -32,8 +33,7 @@ class MergeTwoSortedArraysTest {
 
     @Test
     void mergeArraysTest_nullArrays() {
-        final int[] result = MergeTwoSortedArrays.mergeArrays(null, null);
-        assertNull(result);
+        assertNull(MergeTwoSortedArrays.mergeArrays(null, null));
     }
 
 

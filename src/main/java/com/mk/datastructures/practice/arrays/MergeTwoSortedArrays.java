@@ -1,4 +1,4 @@
-package com.mk.datastructures.practice;
+package com.mk.datastructures.practice.arrays;
 
 /**
  * In this problem, you have to implement the mergeArrays() function
